@@ -79,7 +79,7 @@ colorPreference.addEventListener('change',e=>{if(!savedTheme())setTheme(e.matche
 window.addEventListener('storage',e=>{if(e.key==='zyro-theme')setTheme(savedTheme()??(colorPreference.matches?'dark':'light'));});
 const film=document.getElementById('booking-film');
 function loadPoster(){if(film.dataset.poster){film.poster=film.dataset.poster;delete film.dataset.poster;}}
-if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting)){loadPoster();observer.disconnect();}},{rootMargin:'250px'});observer.observe(film);}else loadPoster();
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting)){loadPoster();observer.disconnect();}},{rootMargin:'0px'});observer.observe(film);}else loadPoster();
 document.addEventListener('keydown',event=>{
  if(event.key==='Escape'){document.getElementById('marketing-links').classList.remove('mobile-open');document.querySelector('.mobile-toggle')?.setAttribute('aria-expanded','false');}
  const tab=event.target.closest('.solution-tab');

@@ -8,7 +8,7 @@ Run `npm install` and `npm run build`. Edit the readable HTML, CSS, and JavaScri
 
 ## Performance and themes
 
-The HTML includes the full page content before JavaScript runs. Scripts are deferred, fonts use the native system stack, video downloads only when playback begins, and its poster loads near the viewport. Light and dark modes share contrast-tested color tokens. A saved theme overrides the system preference; otherwise the site follows system changes. Reduced-motion preferences are respected.
+The HTML includes the full page content before JavaScript runs. The minified stylesheet is inlined so first paint needs no additional CSS request. Scripts are deferred, fonts use the native system stack, video downloads only when playback begins, and its poster loads only when visible. Light and dark modes share contrast-tested color tokens. A saved theme overrides the system preference; otherwise the site follows system changes. Reduced-motion preferences are respected.
 
 ## Private systems
 
