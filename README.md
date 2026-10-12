@@ -1,11 +1,15 @@
 # Zyro Flow public website
 
-Static frontend for GitHub Pages. `index.html` includes the marketing site, dark theme, and labelled product demo. Phone, WhatsApp, and email enquiries are direct contact links. Real sign-in and saved workspace data run on the existing secure backend at https://zyro-flow-studio.ananthajeethd65.chatgpt.site.
+Customer-facing marketing site and fictional WhatsApp booking demonstration, hosted on GitHub Pages. Visitors do not sign in. The video and interactive demo do not send messages, take payments, or store real booking data.
 
-The database, customer records, production server source, encryption keys, and integration credentials are not included in this repository. The separate full-source `Zyro-Flow` repository remains private. Public frontend code is necessarily downloadable by site visitors; it does not grant database access.
+## Development
 
-## Enable the site
+Run `npm install` and `npm run build`. Edit the readable HTML, CSS, and JavaScript in `src/`; `tools/build.mjs` produces the public HTML and minified assets with content-based filenames. Commit the generated files to publish through GitHub Pages.
 
-In this repository: Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main → Folder: / (root) → Save.
+## Performance and themes
 
-GitHub will display the live Pages address when deployment finishes. Enabling Pages requires the repository owner's setting; the connected GitHub tools used for this upload cannot change that setting.
+The HTML includes the full page content before JavaScript runs. Scripts are deferred, fonts use the native system stack, video downloads only when playback begins, and its poster loads near the viewport. Light and dark modes share contrast-tested color tokens. A saved theme overrides the system preference; otherwise the site follows system changes. Reduced-motion preferences are respected.
+
+## Private systems
+
+This public repository contains no backend credentials or database data. Live integrations and the backend remain separate. Contact: ananthajeethd4@gmail.com / +91 80896 01107.
