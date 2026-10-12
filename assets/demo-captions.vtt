@@ -1,37 +1,67 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:05.000
-Your ad works after hours. Customer sees your Instagram ad. Saw your ad. Can I book for tomorrow? Your business receives a WhatsApp enquiry.
+00:00:00.000 --> 00:00:04.000
+At midnight Alex sees an Instagram ad and taps Send message.
 
-00:00:05.000 --> 00:00:10.000
-Help them find the right service. AI replies with your approved services. Consultation, seat booking or service visit? Customer selects Consultation.
+00:00:04.000 --> 00:00:07.500
+Customer: Hi! I saw your Instagram ad. Can I book for tomorrow?
 
-00:00:10.000 --> 00:00:15.000
-Give them a real choice. AI offers multiple available time slots. 09:00  /  09:30  /  10:00  /  10:30 11:00  /  11:30  /  14:00  /  15:00 Customer chooses tomorrow at 10:00 AM.
+00:00:07.500 --> 00:00:11.000
+Business AI: Hi Alex! Of course. What would you like to book?  Consultation · ₹1,000 Seat booking · ₹500 Service visit · ₹1,500
 
-00:00:15.000 --> 00:00:20.000
-No surprises before payment. Confirm the service, time and price. Consultation · Tomorrow · 10:00 AM ₹1,000. Shall I confirm these details? Customer confirms. Slot held for payment.
+00:00:11.000 --> 00:00:14.500
+Customer: A consultation, please.
 
-00:00:20.000 --> 00:00:25.000
-Send a payment link or QR. Customer receives a secure payment option. Your payment link or QR is ready. Complete payment to confirm your slot. Payment is pending. Booking is not confirmed.
+00:00:14.500 --> 00:00:18.000
+Business AI: Here are tomorrow’s available times. Tap one to choose.
 
-00:00:25.000 --> 00:00:30.000
-Confirm only after verification. Backend verifies the payment event. Payment received! Your appointment is confirmed for tomorrow at 10:00 AM. Confirmation message sent to the customer.
+00:00:18.000 --> 00:00:21.500
+Customer: 10:00 AM works for me.
 
-00:00:30.000 --> 00:00:35.000
-Keep the owner in the loop. A new booking row is created. Alex · Consultation · 10:00 AM ₹1,000 paid · DEMO-001 · Confirmed Owner receives the booking notification immediately.
+00:00:21.500 --> 00:00:25.000
+Business AI: Please review your booking:  Consultation Tomorrow · 10:00 AM Total · ₹1,000  Shall I confirm these details?
 
-00:00:35.000 --> 00:00:40.000
-The owner stays in control. Customer asks to cancel the booking. I need to cancel. Can I change the time or request a refund? Owner reviews the request against business policy.
+00:00:25.000 --> 00:00:28.500
+Customer: Yes, confirm please.
 
-00:00:40.000 --> 00:00:45.000
-Release the original slot. Owner approves the cancellation. Cancellation approved. Choose another available slot or request a refund. Booking row updated. Customer and owner notified.
+00:00:28.500 --> 00:00:32.000
+Business AI: Your slot is held while you pay. Choose a secure payment option.
 
-00:00:45.000 --> 00:00:50.000
-Find a time that works. Customer chooses a new available time. Tomorrow at 3:00 PM works for me. New slot checked. Confirmation and Sheet updated.
+00:00:32.000 --> 00:00:35.500
+Customer: Send me the payment link.
 
-00:00:50.000 --> 00:00:55.000
-Keep the status clear. Refund requested under the business policy. Your refund has been requested. We will confirm when Razorpay processes it. Provider verifies completion; customer gets an update.
+00:00:35.500 --> 00:00:39.000
+Business AI: Razorpay payment link Consultation · ₹1,000  Open payment link ↗ DEMO ONLY · no payment collected
 
-00:00:55.000 --> 00:01:00.000
-Your front desk. Always open. From the first message to the final update. ₹10,000 one-time setup + 10% per confirmed WhatsApp booking Illustrative demo · live provider setup required.
+00:00:39.000 --> 00:00:42.500
+Business AI: Payment verified ✓  You’re booked for tomorrow at 10:00 AM. Booking ID: DEMO-001  We’ll remind you before your appointment.
+
+00:00:42.500 --> 00:00:46.000
+Business AI: Your confirmation is recorded. The owner has received your booking details.
+
+00:00:46.000 --> 00:00:49.500
+Customer: Can I cancel or change my appointment?
+
+00:00:49.500 --> 00:00:53.000
+Business AI: I’ve sent your request to the owner. Once approved, you can choose another slot or request a refund under our cancellation policy.
+
+00:00:53.000 --> 00:00:56.500
+Business AI: The owner approved your cancellation. Your original slot is released.  Reschedule or request a refund?
+
+00:00:56.500 --> 00:01:00.000
+Customer: Let’s reschedule to 3:00 PM.
+
+00:01:00.000 --> 00:01:03.500
+Business AI: 3:00 PM is available. Your paid booking has been moved.  Tomorrow · 3:00 PM DEMO-001 · Confirmed  The owner and booking sheet are updated.
+
+00:01:03.500 --> 00:01:07.000
+Customer: My plans changed again. Could I request a refund?
+
+00:01:07.000 --> 00:01:10.500
+Business AI: The owner has approved your refund request. We’ll notify you when Razorpay confirms it has been processed.
+
+00:01:10.500 --> 00:01:14.000
+Business AI: Refund processed ✓  Your appointment is cancelled. The refund will reach your original payment method according to the provider’s timeline.  The booking sheet and owner are updated.
+
+00:01:14.000 --> 00:01:22.000
+Owner receives a WhatsApp notification and the booking is recorded in Google Sheets. Live operation requires connected providers.
